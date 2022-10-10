@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/script.js"></script>
+
+    <title>Ko papir ollo</title>
+
+</head>
+<body onload="init()">
+
+    <div class="container">
+        <h1 id="h1"></h1>
+    </div>
+
+    <div class="container">
+        <img src="./images/ko.png" width="200" height="200" onclick="pick('ko')" id="sajatKo">
+        <img src="./images/papir.png" width="200" height="200" onclick="pick('papir')" id="sajatPapir">
+        <img src="./images/ollo.png" width="200" height="200" onclick="pick('ollo')" id="sajatOllo">
+    </div>
+
+    <div class="container">
+        <img src="./images/ko.png" width="200" height="200" id="ko" class="invisible">
+        <img src="./images/papir.png" width="200" height="200" id="papir" class="invisible">
+        <img src="./images/ollo.png" width="200" height="200" id="ollo" class="invisible">
+    </div>
+
+    <div class="container">
+        <button onclick="restart()">Újra</button>
+    </div>
+</body>
+</html>

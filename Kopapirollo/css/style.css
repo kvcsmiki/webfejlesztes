@@ -1,0 +1,12 @@
+body{
+    background-image: url("../images/backgroundimage.jpeg");
+    background-size: 100%;
+}
+.container{
+    margin:auto;
+    width: fit-content;
+}
+.invisible{
+    visibility: hidden;
+    margin: auto;
+}
